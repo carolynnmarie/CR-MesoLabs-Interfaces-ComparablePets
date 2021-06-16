@@ -4,16 +4,19 @@ import java.util.Comparator;
 
 public abstract class Pets{
 
-    private String name;
-    private String type;
+    String name;
+    String type;
 
     public Pets() {
         this.name = "";
+        this.type = "";
     }
 
     public Pets(String name) {
         this.name = name;
+        this.type = "";
     }
+
     public void setType(String type) {
         this.type = type;
     }

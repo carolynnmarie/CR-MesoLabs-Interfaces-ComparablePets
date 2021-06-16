@@ -3,10 +3,10 @@ package io.zipcoder.pets;
 public class Parrot extends Pets {
 
 
-    private String type;
 
     public Parrot() {
         this.type = "parrot";
+        this.name = "";
     }
 
     public Parrot(String name) {

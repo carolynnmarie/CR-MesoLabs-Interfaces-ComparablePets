@@ -13,8 +13,7 @@ public class Application {
 
 
     public Application() {
-        this.petList = new ArrayList<Pets>();
-
+        this.petList = new ArrayList<>();
     }
 
     public void setPetList(ArrayList<Pets> petList) {
@@ -41,7 +40,6 @@ public class Application {
             String name = scan.nextLine();
             petList.add(PetFactory.createPets(type, name));
         }
-        setPetList(petList);
         return petList;
     }
 

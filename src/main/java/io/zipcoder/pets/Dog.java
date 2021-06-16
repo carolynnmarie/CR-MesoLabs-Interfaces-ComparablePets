@@ -2,8 +2,12 @@ package io.zipcoder.pets;
 
 public class Dog extends Pets {
 
-    private String type;
 
+
+    public Dog(){
+        this.name = "";
+        this.type = "dog";
+    }
 
     public Dog(String name) {
         super(name);

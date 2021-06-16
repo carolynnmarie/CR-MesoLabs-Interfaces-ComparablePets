@@ -9,8 +9,11 @@ public class PetFactory {
             return new Cat(name);
         } else if (pet.equalsIgnoreCase("parrot")) {
             return new Parrot(name);
+        } else {
+            return null;
         }
-        return null;
     }
 
 }
+//Another reason to employ an if/else statement, is in a factory method, where you create a new instance of a
+//class, what class that is being based on which conditional statement is true
